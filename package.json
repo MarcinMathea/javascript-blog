@@ -23,9 +23,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^9.6.5",
     "autoprefixer-cli": "^1.0.0"
   },
   "devDependencies": {
+    "browser-sync": "^2.26.7",
     "browsersync": "0.0.1-security",
     "globstar": "^1.0.0",
     "mkdirp": "^0.5.1",
