@@ -15,7 +15,6 @@
         const articleSelector = clickedElement.getAttribute('href');
         const targetArticle = document.querySelector(articleSelector);
         targetArticle.classList.add('active');
-        console.log('titleClickHandler');
     }
     const optArticleSelector = '.post';
     const optTitleSelector = '.post-title';
@@ -136,7 +135,7 @@
     }
 
     function addClickListenersToAuthors() {
-        const links = document.querySelectorAll(optArticleAuthorSelector);
+        const links = document.querySelectorAll(optArticleAuthorSelector + 'a');
         for (let link of links) {
             link.addEventListener('click', authorClickHandler);
         }
