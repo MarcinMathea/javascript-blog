@@ -161,7 +161,7 @@
             authorLink.classList.add('active');
         }
           console.log(author);
-        generateTitleLinks('[data-author~="' + author + '"]');
+        generateTitleLinks('[data-author="' + author + '"]');
 
     }
 
